@@ -9,17 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yllu.config.manager</groupId>
-    <artifactId>ConfigurationManager</artifactId>
+    <artifactId>ServiceDiscoveryServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ConfigurationManager</name>
+    <name>ServiceDiscoveryServer</name>
     <description>Demo project for Spring Boot</description>
+
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.thoughtmechanix.confsvr.
-            ➥ConfigServerApplication </start-class>
         <java.version>15</java.version>
-        <docker.image.name>johncarnell/tmx-confsvr</docker.image.name>
-        <docker.image.tag>chapter3</docker.image.tag>
     </properties>
 
     <dependencyManagement>
@@ -35,14 +31,7 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
+
     </dependencies>
 
     <build>
